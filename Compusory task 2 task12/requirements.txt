@@ -1,0 +1,20 @@
+To run the code you provided, you'll need to have the following dependencies installed:
+spacy: This library is used for natural language processing tasks.
+You can install it using pip:
+
+pip install spacy
+
+numpy: This library is used for numerical computations.
+You can install it using pip:
+
+pip install numpy
+
+
+n addition to the dependencies, you also need to download the spaCy English model (en_core_web_lg) for word vector similarity. You can download it by running the following command:
+python -m spacy download en_core_web_lg
+
+
+
+with open('C:/Users/RMalope/Downloads/movies (1).txt', 'r') as file:
+
+Once everything is set up, you can execute the script and it will print the recommended movie based on word vector similarity.
